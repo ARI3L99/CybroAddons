@@ -149,5 +149,10 @@ var SaleRefPopupWidget = PopupWidget.extend({
 
 gui.define_popup({name:'pos_so_ref', widget: SaleRefPopupWidget});
 
-});
+return {
+    SaleOrderButton: SaleOrderButton,
+    SaleOrderPopupWidget: SaleOrderPopupWidget,
+    SaleRefPopupWidget: SaleRefPopupWidget
+};
 
+});
